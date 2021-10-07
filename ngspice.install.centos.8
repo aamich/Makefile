@@ -1,0 +1,13 @@
+mkdir release
+cd release/
+
+../configure  --with-x --with-readline=yes --disable-debug
+
+configure: error: Couldn't find Xaw library
+sudo dnf install libXaw-devel
+
+configure: error: Couldn't find GNU readline headers.
+sudo dnf install readline-devel
+
+make
+make install
