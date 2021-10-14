@@ -1,0 +1,4 @@
+#
+
+sudo yum install dnf-plugins-core
+sudo yum config-manager --set-enabled powertools
