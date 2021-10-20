@@ -13,3 +13,5 @@ set hlsearch
 set ruler
 set title
 set bs=2
+
+set tags=tags;/
